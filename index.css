@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	font-size: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+body{
+	background-color: #E7E7E7;
+	display: table;
+}
+
+#cont{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.ima{
+	width: 310px;
+	padding: 18px;
+	margin: 30px;
+	background-color: #FFFFFF;
+	transition: transform 0.8s;
+	-webkit-transform: transform 0.8s;
+}
+
+.ima:hover{
+	transform: scale(1.5) rotate(0deg) !important;
+}
+
+#a{
+	transform: rotate(12deg);
+}
+
+#b{
+	transform: rotate(-5deg);
+}
+
+#c{
+	transform: rotate(10deg);
+}
+
+#d{
+	transform: rotate(8deg);
+}
+
+#e{
+	transform: rotate(-10deg);
+}
+
+#f{
+	transform: rotate(-5deg);
+}
+
+#g{
+	transform: rotate(10deg);
+}
+
+#h{
+	transform: rotate(8deg);
+}
